@@ -7,4 +7,6 @@ const configWithCases = getConfigWithCase({
 	type: "ConfigObject",
 });
 
+
+
 writeJsonSync('../bin/config-schema.json', configWithCases);
